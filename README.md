@@ -20,8 +20,8 @@ Clone this repository, then copy the `WorldWonders-Patch` folder into your Civ 6
 
 - Neuschwanstein Castle:
     - Changed placement requirements so that it must be built on a non-desert mountain (which also looks better to me)
-        - Note that this means you can't active a Great Musician on the wonder, so you can't fill the great work slots unless you move great works to the wonder
-    - Changed the requirement for cities to receive the wonder's modifier to only check for medieval walls. This doesn't change anything in practice, but it does make the description a but more concise
+        - Note that this means you can't active a Great Musician on the wonder, so you can't fill the great work slots directly and must move great works to the wonder
+    - Changed the requirement for cities to receive the wonder's modifier to only check for medieval walls. This doesn't change anything in practice, but it does make the description a bit more concise
     - Added +1 amenity from entertainment to the wonder itself
     - Changed the wonder's gold yield and the yield bonus to cities with medieval walls to +3 (previously +2)
 - Porcelain Tower:
