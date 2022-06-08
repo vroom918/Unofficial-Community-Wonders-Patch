@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Replace Tag="LOC_BUILDING_GLOBE_THEATRE_DESCRIPTION">
+			<Text>+1 [ICON_Amenities] Amenity in all cities with an Amphitheater. Contains 2 slots for [ICON_GreatWork_Writing] Great Works of Writing. A free [ICON_GREATWRITER] Great Writer appears near the city where the wonder was built (if one is available). Must be built on Grassland, Plains, or Tundra next to a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BURJ_KHALIFA_DESCRIPTION">
+			<Text>Awards 3 [ICON_RESOURCE_OIL] Oil per turn. +2 [ICON_Culture] Culture to Oil Wells, Oil Rigs and Mines within 9 tiles. +15% [ICON_Gold] Gold in this city. +1 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Replace>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_LEANING_TOWER_DESCRIPTION" Language="en_US">
+			<Text>Harbors in each city within 6 tiles receive an additional standard adjacency bonus for being adjacent to another district. +25% combat experience for all Naval units trained in this city. +100% Tourism pressure from this city towards other civilizations starting from the Modern Era. Must be built next to the City Center in a city with a Harbor.</Text>
+		</Replace>
+		<Replace Tag="LOC_WON_CL_KINKAKU_DESCRIPTION" Language="en_US">
+			<Text>Holy Sites within 6 tiles grant +2 [ICON_CULTURE] Culture to adjacent unimproved tiles and gain [ICON_TOURISM] Tourism equal to half their [ICON_FAITH] Faith adjacency (requires that the player has the Flight Technology). [ICON_CULTURE] Culture and [ICON_TOURISM] Tourism bonuses are doubled on tiles with Breathtaking appeal. Must be built on a Lake tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_WON_CL_EMPIRE_STATES_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_GOLD] Gold in this city, and grants all Wonders in this city +6 [ICON_GOLD] Gold and +50% [ICON_Tourism] Tourism. Must be built on flat land adjacent to the City Center.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

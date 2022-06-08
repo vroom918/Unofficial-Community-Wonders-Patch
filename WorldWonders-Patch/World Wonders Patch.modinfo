@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d0c1c10d-d6ca-44c0-90ba-8fcbee4cd809" version="1">
+  <Properties>
+    <Name>Unofficial World Wonders Collection Bug and Balance Patch</Name>
+    <Description>Fixes and rebalances wonders from the World Wonders Collection. This mod has no requirements and will apply to any affected mods you have installed.</Description>
+    <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+	<Created>1654399857</Created>
+    <Teaser>Fixes and rebalances wonders from the World Wonders Collection.</Teaser>
+    <Authors>vroom918</Authors>
+  </Properties>
+  <Dependencies>
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateDatabase id="WW_Patch_DB_FE">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Config.sql</File>
+	  <File>Balance/Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="WW_Patch_Text_FE">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Text.sql</File>
+      <File>Bugs/Text.xml</File>
+      <File>Balance/Text.sql</File>
+      <File>Balance/Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="WW_Patch_DB_IG">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+      <File>Bugs/Main.sql</File>
+      <File>Balance/Main.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="WW_Patch_Text_IG">
+      <Properties>
+        <LoadOrder>999</LoadOrder>
+      </Properties>
+	  <File>Bugs/Text.sql</File>
+      <File>Bugs/Text.xml</File>
+	  <File>Balance/Text.sql</File>
+      <File>Balance/Text.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Bugs/Main.sql</File>
+	<File>Bugs/Config.sql</File>
+    <File>Bugs/Text.sql</File>
+    <File>Bugs/Text.xml</File>
+    <File>Balance/Main.sql</File>
+	<File>Balance/Config.sql</File>
+    <File>Balance/Text.sql</File>
+    <File>Balance/Text.xml</File>
+  </Files>
+</Mod>

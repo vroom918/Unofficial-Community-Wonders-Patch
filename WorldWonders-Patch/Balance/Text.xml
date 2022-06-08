@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Replace Tag="LOC_BUILDING_NEUSCHWANSTEIN_DESCRIPTION">
+			<Text>Cities with Medieval Walls gain +3 [ICON_Gold] Gold, +2 [ICON_Culture] Culture, and +1 [ICON_Amenities] Amenity. Must be built on a non-Desert Mountain.</Text>
+		</Replace>
+        <Replace Tag="LOC_BUILDING_PORCELAIN_TOWER_DESCRIPTION">
+            <Text>Grants 2 [ICON_RESOURCE_PORCELAIN] Porcelain, a uniquely manufactured Luxury resource which provides +4 [ICON_Amenities] Amenities. A free [ICON_GREATSCIENTIST] Great Scientist appears near the city where the wonder was built (if one is available). Must be built on a flat Grassland, Plains, or Tundra tile adjacent to the City Center.</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_DESCRIPTION">
+			<Text>International trade routes recieve +1 [ICON_Faith] Faith for each Luxury resource at the destination. +1 [ICON_Faith] Faith to Plantations within 6 tiles. Grants 1 Apostle and 1 Guru. Must be built on Rainforest adjacent to a Holy Site with a Temple, and you must have founded a Religion.</Text>
+		</Replace>
+	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_NEUSCHWANSTEIN_DESCRIPTION" Language="de_DE">
+			<Text>+3 [ICON_Gold] Gold, +2 [ICON_Culture] Kultur, und +1 [ICON_Amenities] Annehmlichkeit in jeder Stadt mit mittelalterlichen Mauern. Muss auf einem Nicht-Wüstenberg-Feld errichtet werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ITSUKUSHIMA_DESCRIPTION" Language="en_US">
+			<Text>Coast tiles provide a standard adjacency bonus to Holy Sites and a minor adjacency bonus to Theatre Squares in all cities. Grants a free Shrine in the city where it is built. All tiles in this city gain +1 Appeal. Must be built on Coast adjacent to a Holy Site.</Text>
+		</Replace>
+		<Replace Tag="LOC_WON_CL_BUILDING_ARECIBO_DESCRIPTION" Language="en_US">
+			<Text>Mountain tiles provide an additional Standard adjacency bonus to Campus districts in all cities. Awards 1 randomly-chosen free technology when completed. Receive a random tech boost for every Space Race project completed. Must be built on Rainforest.</Text>
+		</Replace>
+		<Replace Tag="LOC_ARECIBO_SPACEPORT_SCIENCE" Language="en_US">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Spaceport {1_Num : plural 2?district; other?districts;}. (Arecibo Observatory)</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
